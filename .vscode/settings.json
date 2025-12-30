@@ -1,0 +1,18 @@
+{
+    // Configure Code Runner for Spring Boot projects
+    // When running Java files, if the file is in backend directory, use Maven
+    "code-runner.executorMap": {
+        "java": "cd $workspaceRoot\\backend && mvn spring-boot:run"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveAllFilesBeforeRun": false,
+    "code-runner.showExecutionMessage": true,
+    "code-runner.ignoreSelection": false,
+    
+    // Java settings
+    "[java]": {
+        "editor.defaultFormatter": null
+    }
+}
